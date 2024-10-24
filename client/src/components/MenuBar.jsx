@@ -10,14 +10,14 @@ export default function MenuBar () {
     return (
         <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Bowdoin Reselling</a>
+  <a class="navbar-brand navbar-dark bg-dark" href="#">Bowdoin Reselling</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse navbar-dark bg-dark" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active navbar-dark bg-dark">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link navbar-dark bg-dark" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item navbar-dark bg-dark">
         <a class="nav-link" href="#">Features</a>
